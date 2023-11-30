@@ -23,6 +23,7 @@ footer {
 .footer-bottom { /* sekcja dolna footera */
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .footer-bottom span { /* dolny tekst w footerze */
