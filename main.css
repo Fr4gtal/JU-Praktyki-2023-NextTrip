@@ -47,7 +47,7 @@ section {
     height: 60px;
 }
 
-.assistance-phone > img {
+.assistance-phone img {
     position: relative;
     margin: 15px;
     height: 30px;
@@ -66,23 +66,23 @@ section {
     flex-direction: column;
 }
 
-.section-form > label {
+.section-form label {
     color: rgb(137, 137, 144);
 }
 
-.section-form > label {
+.section-form label {
     margin-top: 20px;
     margin-bottom: 10px;
     font-size: small;
     font-weight: bold;
 }
 
-.section-form > label > p {
+.section-form label p {
     color: red;
     display: inline;
 }
 
-.section-form > textarea {
+.section-form textarea {
     resize: vertical;
     max-height: 60vh;
     min-height: 20px;
@@ -93,7 +93,7 @@ section {
     justify-content: center;
 }
 
-.form-subject-button-wrapper > button {
+.form-subject-button-wrapper button {
     margin-top: 50px;
     background-color: rgb(36, 119, 203);
     border-radius: 12px;

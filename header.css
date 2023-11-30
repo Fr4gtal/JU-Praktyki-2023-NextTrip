@@ -12,7 +12,7 @@
     margin-bottom: 10px;
 }
 
-.header-logo > a > img { /* logo */
+.header-logo a img { /* logo */
     width: 230px;
 }
 
@@ -24,11 +24,11 @@
     justify-content: space-between;
 }
 
-.header-CallUs > p { /* "call us" i numer telefonu */
+.header-CallUs p { /* "call us" i numer telefonu */
     color: rgb(36, 119, 203);
 }
 
-.header-CallUs > p:not(:first-child) { /* spacing "call us" i numeru teleofnu */
+.header-CallUs p:not(:first-child) { /* spacing "call us" i numeru teleofnu */
     padding-left: 30px;
 }
 
@@ -46,22 +46,22 @@
     margin-bottom: 10px;
 }
 
-.header-nav > ul {
+.header-nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.header-nav > ul > li {
+.header-nav ul li {
     display: inline;
     text-align: center;
 }
 
-.header-nav > ul > li:not(:first-child) { /* spacing navbara */
+.header-nav ul li:not(:first-child) { /* spacing navbara */
     padding-left: 20px;
 }
 
-.header-nav > ul > li > a {
+.header-nav ul li a {
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -75,11 +75,11 @@
     margin-bottom: auto;
 }
 
-.header-menu-socials > a > img { /* ikonki sociali */
+.header-menu-socials a img { /* ikonki sociali */
     height: 20px;
 }
 
-.header-menu-socials > a:not(:last-child) { /* spacing ikonek */
+.header-menu-socials a:not(:last-child) { /* spacing ikonek */
     padding-right: 20px;
 }
 

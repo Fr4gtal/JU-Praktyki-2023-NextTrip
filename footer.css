@@ -12,7 +12,7 @@ footer {
     margin-left: 10vw;
 }
 
-.footer-top > a { /* odnosniki w sekcji górnej footera */
+.footer-top a { /* odnosniki w sekcji górnej footera */
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -23,14 +23,14 @@ footer {
     justify-content: center;
 }
 
-.footer-bottom > p { /* dolny tekst w footerze */
+.footer-bottom p { /* dolny tekst w footerze */
     color: white;
 }
 
-.footer-socials > a > img { /* ikonki sociali */
+.footer-socials a img { /* ikonki sociali */
     height: 30px;
 }
 
-.footer-socials > a:not(:last-child) { /* spacing ikonek */
+.footer-socials a:not(:last-child) { /* spacing ikonek */
     padding-right: 20px;
 }
