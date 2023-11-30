@@ -25,7 +25,7 @@ footer {
     justify-content: center;
 }
 
-.footer-bottom p { /* dolny tekst w footerze */
+.footer-bottom span { /* dolny tekst w footerze */
     color: white;
 }
 

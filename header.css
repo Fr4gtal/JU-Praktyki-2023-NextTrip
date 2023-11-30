@@ -24,11 +24,11 @@
     justify-content: space-between;
 }
 
-.header-CallUs p { /* "call us" i numer telefonu */
+.header-CallUs span { /* "call us" i numer telefonu */
     color: rgb(36, 119, 203);
 }
 
-.header-CallUs p:not(:first-child) { /* spacing "call us" i numeru teleofnu */
+.header-CallUs span:not(:first-child) { /* spacing "call us" i numeru teleofnu */
     padding-left: 30px;
 }
 
