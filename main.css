@@ -1,0 +1,104 @@
+main {
+    overflow: hidden;
+}
+
+.background-gradient {
+    background: linear-gradient(white calc(100% - 30vw), rgba(255, 255 ,255, -1));
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-image {
+    background-image: url(background-image.png);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: center bottom;
+}
+
+article {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width: 50vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.section-assistance {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assistance-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.assistance-phone { /* obówdka do ikonki telefonu */
+    border-radius: 50px;
+    border: 2px solid rgb(18, 163, 255);
+    width: 60px;
+    height: 60px;
+}
+
+.assistance-phone > img {
+    position: relative;
+    margin: 15px;
+    height: 30px;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.xlarge-text {
+    font-size: x-large;
+}
+
+.section-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-form > label {
+    color: rgb(137, 137, 144);
+}
+
+.section-form > label {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.section-form > label > p {
+    color: red;
+    display: inline;
+}
+
+.section-form > textarea {
+    resize: vertical;
+    max-height: 60vh;
+    min-height: 20px;
+}
+
+.form-subject-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.form-subject-button-wrapper > button {
+    margin-top: 50px;
+    background-color: rgb(36, 119, 203);
+    border-radius: 12px;
+    height: 30px;
+    color: white;
+    width: 140px;
+    border: none;
+}

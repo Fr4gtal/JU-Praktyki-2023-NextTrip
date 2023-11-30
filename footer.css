@@ -1,0 +1,36 @@
+footer {
+    height: auto;
+    width: 100vw;
+    background-color: rgb(5, 34, 87);
+}
+
+.footer-top { /* sekcja górna footera */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.footer-top > a { /* odnosniki w sekcji górnej footera */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-bottom { /* sekcja dolna footera */
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom > p { /* dolny tekst w footerze */
+    color: white;
+}
+
+.footer-socials > a > img { /* ikonki sociali */
+    height: 30px;
+}
+
+.footer-socials > a:not(:last-child) { /* spacing ikonek */
+    padding-right: 20px;
+}

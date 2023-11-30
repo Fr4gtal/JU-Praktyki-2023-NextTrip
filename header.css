@@ -1,0 +1,86 @@
+.header-top {
+    background-color: rgb(237, 237, 237);
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    margin-left: 70px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-logo > a > img { /* logo */
+    width: 230px;
+}
+
+.header-CallUs { 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-CallUs > p { /* "call us" i numer telefonu */
+    color: rgb(36, 119, 203);
+}
+
+.header-CallUs > p:not(:first-child) { /* spacing "call us" i numeru teleofnu */
+    padding-left: 30px;
+}
+
+.header-bottom { /*  */
+    background-color: rgb(5, 34, 87);
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav { 
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header-nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav > ul > li {
+    display: inline;
+    text-align: center;
+}
+
+.header-nav > ul > li:not(:first-child) { /* spacing navbara */
+    padding-left: 20px;
+}
+
+.header-nav > ul > li > a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.header-menu-socials { /* sociale */
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-menu-socials > a > img { /* ikonki sociali */
+    height: 20px;
+}
+
+.header-menu-socials > a:not(:last-child) { /* spacing ikonek */
+    padding-right: 20px;
+}
+
+
