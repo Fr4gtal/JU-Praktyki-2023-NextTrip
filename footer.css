@@ -8,8 +8,10 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    margin-top: 0;
     margin-right: 10vw;
     margin-left: 10vw;
+    list-style-type: none;
 }
 
 .footer-top a { /* odnosniki w sekcji górnej footera */
